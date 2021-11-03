@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-color: darkseagreen;
+	font-family:  Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin: 50px;
+}
+
+
+
+form {
+    width: 450px;
+    padding: 20px;
+    background-color: rgba(77,126,62,1.00);
+    border: 6px;
+    border-radius: 20px;
+}
+
+input, fieldset, select {
+    font-size: 14px;
+    width: 95%;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(255,255,255,.5);
+    border: 2px #000000;
+    box-sizing: border-box;
+	border-radius: 10px;
+}
+
+input:focus {
+    background-color: #CBDCBE;
+	
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+fieldset input {
+    width: 10%;
+}
+fieldset label {
+    display: inline-block;
+    width: 80%;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 100px;
+    height: 30px;
+    padding: 1px;
+    margin-left: 10px;
+    
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    box-shadow: 3px 5px 3px #4C723C;
+	
+}
+
+input[type="color"] {
+    height: 45px;
+    padding: 2px;
+}
+
+p{
+ padding: 1px;	
+margin-top: 2px;
+	font-style: italic;
+	font-weight: bold;
+}
